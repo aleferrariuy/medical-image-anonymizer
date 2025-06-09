@@ -10,7 +10,7 @@ Python-based script for the Linux command line that:
    - Writes anonymized files to the output path, with the -w/--overwrite option to overwrite.
 Author: Alejandro Ferrari - aleferrari.uy@gmail.com
 Date: 2025.06.09
-Version: 1.0.0 
+Version: 1.0.1 
 License: MIT
 """
 
@@ -96,5 +96,9 @@ def main():
     else:
         parser.error('Entrada debe ser un archivo .dcm o un directorio')
 
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as e:
+        logger.exception("Error en la ejecución del script:")
+        sys.exit(1)
