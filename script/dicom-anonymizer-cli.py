@@ -1,7 +1,20 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-# dicom-anonymizer-cli-py
-# Version: 1.0.0 2025.06.09
-# Author: Alejandro Ferrari - aleferrari.uy@gmail.com
+"""
+Module: dicom-anonymizer-cli-py
+Description:
+            Python-based script for the Linux command line that:
+
+- Recursively traverses directories and processes .dcm files.
+- Removes private tags and sensitive fields (name, ID, dates, etc.).
+- Regenerates key UIDs to maintain study consistency without exposing the originals.
+- Writes anonymized files to the output path, with the -w/--overwrite option to overwrite.
+Author: Alejandro Ferrari - aleferrari.uy@gmail.com
+Date: 2025.06.09
+Version: 1.0.0 
+License: MIT
+"""
 
 import os
 import argparse
