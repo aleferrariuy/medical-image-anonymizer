@@ -77,10 +77,15 @@ The DICOM standard defines de-identification profiles in Part 15, Annex E:
 **Summary:** Proper anonymization of DICOM images in Uruguay requires (1) adherence to Law 18.331 and Decree 414/009, (2) application of the DICOM PS3.15 Basic Application Level Confidentiality Profile and its options, (3) removal of metadata and pixels containing PHI, (4) documentation and validation of the process, and (5) ethical approval and, if necessary, notification or registration with the URCDP. This ensures both the protection of patient privacy and the viability of using the images in educational and research contexts.
 
 [1]: https://www.pdelc.com.uy/es/novedades/corporativo/nueva-guia-de-proteccion-de-datos-personales/?utm_source=chatgpt.com "Nueva Guía de Protección de Datos Personales"
+
 [2]: https://biblioteca.protecdatacolombia.com/wp-content/uploads/2024/06/Decreto-Numero-414-del-2009-Uruguay.pdf?utm_source=chatgpt.com "[PDF] REGLAMENTACION DE LA LEY 18.331, RELATIVO A LA ..."
+
 [3]: https://dicom.nema.org/medical/dicom/current/output/chtml/part15/ps3.15.html?utm_source=chatgpt.com "PS3.15 - DICOM - NEMA"
+
 [4]: https://wiki.cancerimagingarchive.net/display/TSKB?utm_source=chatgpt.com "DICOM Basic Attribute Confidentiality Profile"
+
 [5]: https://dicom.innolitics.com/ciods/rt-plan/sop-common/00280303?utm_source=chatgpt.com "Longitudinal Temporal Information Modified Attribute"
+
 [6]: https://www.aliza-dicom-viewer.com/manual/dicom-specification/application-level-confidentiality-profile-attributes?utm_source=chatgpt.com "DICOM Application Level Confidentiality Profile Attributes"
 
 ---
@@ -166,8 +171,13 @@ El estándar DICOM define perfiles de des-identificación en su parte 15, Annex 
 **Resumen:** la anonimización correcta de imágenes DICOM en Uruguay exige (1) adherir a la Ley 18.331 y Decreto 414/009, (2) aplicar el Basic Application Level Confidentiality Profile de DICOM PS3.15 y sus opciones, (3) eliminar metadatos y píxeles con PHI, (4) documentar y validar el proceso, y (5) contar con la aprobación ética y, de ser preciso, la notificación o registro ante la URCDP. Esto asegura tanto la protección de la privacidad de los pacientes como la viabilidad de uso de las imágenes en contextos educativos y de investigación.
 
 [1]: https://www.pdelc.com.uy/es/novedades/corporativo/nueva-guia-de-proteccion-de-datos-personales/?utm_source=chatgpt.com "Nueva Guía de Protección de Datos Personales"
+
 [2]: https://biblioteca.protecdatacolombia.com/wp-content/uploads/2024/06/Decreto-Numero-414-del-2009-Uruguay.pdf?utm_source=chatgpt.com "[PDF] REGLAMENTACION DE LA LEY 18.331, RELATIVO A LA ..."
+
 [3]: https://dicom.nema.org/medical/dicom/current/output/chtml/part15/ps3.15.html?utm_source=chatgpt.com "PS3.15 - DICOM - NEMA"
+
 [4]: https://wiki.cancerimagingarchive.net/display/TSKB?utm_source=chatgpt.com "DICOM Basic Attribute Confidentiality Profile"
+
 [5]: https://dicom.innolitics.com/ciods/rt-plan/sop-common/00280303?utm_source=chatgpt.com "Longitudinal Temporal Information Modified Attribute"
+
 [6]: https://www.aliza-dicom-viewer.com/manual/dicom-specification/application-level-confidentiality-profile-attributes?utm_source=chatgpt.com "DICOM Application Level Confidentiality Profile Attributes"
